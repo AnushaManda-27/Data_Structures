@@ -8,7 +8,7 @@
 
 import operator
 
-dict1 = {'a':4,'b':7,'c':2,'d':10}
+dict1 = {'a':4,'b':9,'c':2,'d':10}
 
 dict2 = sorted(dict1.items(), key=operator.itemgetter(1))
 print(dict2)
