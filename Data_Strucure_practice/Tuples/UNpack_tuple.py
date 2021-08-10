@@ -9,5 +9,5 @@
 '''
 
 
-name, age, percentage = ("Anusha",23,79.2)
+name, age, percentage = ("Anusha",23,79.9)
 print(name,age,percentage)
