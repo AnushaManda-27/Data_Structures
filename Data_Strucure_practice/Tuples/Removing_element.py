@@ -8,6 +8,6 @@
 '''
 
 tup = ("dogs","are","cute")
-ltup = list(tup)
-ltup.pop(1)
-print(ltup)
+l_tup = list(tup)
+l_tup.pop(1)
+print(l_tup)
