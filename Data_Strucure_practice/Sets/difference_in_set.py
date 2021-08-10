@@ -18,5 +18,4 @@ print(set3)
 set4 = set1.symmetric_difference(set2)
 print(set4)
 
-set1.clear()
-print(set1)
+
