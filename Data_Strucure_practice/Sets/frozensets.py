@@ -14,10 +14,10 @@ print(set)
 
 # operation performed on frozensets
 
-a = frozenset([1,2,3,4,5])
-b = frozenset([4,5,6,7,8])
-c = frozenset([3,4])
+seta = frozenset([1,2,3,4,5])
+setb = frozenset([4,5,6,7,8])
+setc = frozenset([3,4])
 
-print(a.isdisjoint(b))
-print(c.issubset(a))
-print(a.issuperset(c))
+print(seta.isdisjoint(setb))
+print(setc.issubset(seta))
+print(seta.issuperset(setc))
