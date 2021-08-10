@@ -10,8 +10,8 @@
 set1 = {20,30,40,50,60,70}
 set2 = {10,20,30,40,80,90}
 
-set3 = set1.intersection(set2)
-print(set3)
-
-set4 = set1.union(set2)
+set4 = set1.intersection(set2)
 print(set4)
+
+set5 = set1.union(set2)
+print(set5)
