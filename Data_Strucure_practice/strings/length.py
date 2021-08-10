@@ -7,5 +7,5 @@
 @Title: Finding the length of a string
 '''
 
-str = input("Enter a string: ")
-print(len(str))
+string = input("Enter a string: ")
+print(len(string))
