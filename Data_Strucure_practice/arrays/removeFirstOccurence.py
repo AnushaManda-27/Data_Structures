@@ -9,7 +9,7 @@
 
 import array as ar
 
-a = ar.array('i', [1, 2, 3, 4, 5, 5, 4, 3, 4, 3, 2, 1, 4, 5])
-print(a)
-a.remove(4)
-print(a)
+array = ar.array('i', [1, 2, 3, 4, 5, 5, 4, 3, 4, 3, 2, 1, 4, 5])
+print(array)
+array.remove(4)
+print(array)
