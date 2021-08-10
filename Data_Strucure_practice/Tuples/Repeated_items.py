@@ -9,10 +9,10 @@
 '''
 
 tup = ('a','n','u','s','h','a','m','a','n','d','a')
-tupx = []
+tup1 = []
 
 for i in tup:
     #print(tup.count(i))
     if tup.count(i) > 1:
-        tupx.append(i)
-print(tupx)
+        tup1.append(i)
+print(tup1)
