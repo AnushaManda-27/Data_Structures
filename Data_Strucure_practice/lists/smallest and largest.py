@@ -10,8 +10,8 @@
 
 from functools import reduce
 
-ele  = input("Enter a list of elements separated by comma: ").split(',')
+elements  = input("Enter a list of elements separated by comma: ").split(',')
 
-smallest = reduce(lambda smallest, current: smallest if int(smallest) < int(current) else current, ele)
-largest = reduce(lambda largest, current: largest if int(largest) > int(current) else current, ele)
+smallest = reduce(lambda smallest, current: smallest if int(smallest) < int(current) else current, elements)
+largest = reduce(lambda largest, current: largest if int(largest) > int(current) else current, elements)
 print(f'min:{smallest} max:{largest}')
