@@ -6,6 +6,6 @@
 @Title: converting a string into upeer and lower cases
 '''
 
-str = input("Enter a string: ")
-print(str.upper())
-print(str.lower())
+str1 = input("Enter a string: ")
+print(str1.upper())
+print(str1.lower())
