@@ -9,6 +9,6 @@
 
 import array as ar
 
-a = ar.array('i', [1, 2, 3, 4, 5, 5, 4, 3, 4, 3, 2, 1, 4, 5])
-print(f"no of occurences of 4:{a.count(4)}")
+array = ar.array('i', [1, 2, 3, 4, 5, 5, 4, 3, 4, 3, 2, 1, 4, 5])
+print(f"no of occurences of 4:{array.count(4)}")
 
