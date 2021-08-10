@@ -10,5 +10,5 @@
 
 
 list1 = [27,'date',8,'month',1997,'year']
-tup = tuple(list1)
-print(tup)
+tuple = tuple(list1)
+print(tuple)
