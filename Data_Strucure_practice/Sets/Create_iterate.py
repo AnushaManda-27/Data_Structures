@@ -7,8 +7,8 @@
 '''
 
 set1 = {1,23,'ten', 3.5}
-for i in set1:
-    print(i)
+for j in set1:
+    print(j)
 set1.add(56)
 print(set1)
 set1.remove(56)
