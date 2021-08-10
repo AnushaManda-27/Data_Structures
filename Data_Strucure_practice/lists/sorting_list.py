@@ -6,7 +6,7 @@
 @Title: Takes list input and sort all elements in list 
 '''
 
-def sorting(tup):
+def sort(tup):
     '''
     Function : sorting function is defined to sort on the elements in given tuple
 
@@ -18,4 +18,4 @@ def sorting(tup):
     return tup
 
 tup = [(2,5),(1,2),(4,4),(2,3),(2,1)]
-print(sorting(tup))
+print(sort(tup))
