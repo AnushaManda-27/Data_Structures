@@ -7,7 +7,7 @@
 '''
 
 
-dic = {'fruit':'apple', 'veg':'beets','greens':'spinach'}
-print(dic)
-dic.setdefault('snacks', 'chips')
-print(dic)
+dict = {'fruit':'apple', 'veg':'beets','greens':'spinach'}
+print(dict)
+dict.setdefault('snacks', 'chips')
+print(dict)
