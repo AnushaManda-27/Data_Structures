@@ -7,5 +7,5 @@
 @Title: Printing different types of elements in tuples
 '''
 
-tuple = ("anusha",23,505001.5)
-print(tuple)
+tup = ("anusha",23,505001.5)
+print(tup)
