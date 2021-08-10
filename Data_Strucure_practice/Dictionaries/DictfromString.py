@@ -7,10 +7,10 @@
 @Title: Converting String to dictionary
 '''
 
-str = input("Enter a string: ")
+string = input("Enter a string: ")
 
 dict = {}
-for i in str:
+for i in string:
     if i in dict:
         dict[i] += 1
     else:
