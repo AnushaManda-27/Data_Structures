@@ -7,7 +7,7 @@
 @Title: Concatenating 2 dictionaries
 '''
 
-dict1 = {'fruit':'apple', 'veg':'beets',}
-dict2 = {'greens': 'spinach', 'snacks':'Chips'}
-dict1.update(dict2)
-print(dict1)
+dicta = {'fruit':'apple', 'veg':'beets',}
+dictb = {'greens': 'spinach', 'snacks':'Chips'}
+dicta.update(dictb)
+print(dicta)
