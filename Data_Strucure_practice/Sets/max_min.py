@@ -9,8 +9,8 @@
 
 set1 = {1,2,98,7,56,40}
 
-max = max(set1)
-print(max)
+maximum = max(set1)
+print(maximum)
 
 min = min(set1)
 print(min)
