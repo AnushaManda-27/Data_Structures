@@ -10,8 +10,8 @@
 list1 = ["restart","return","system","computer"]
 list2 = []
 
-for i in list1:
-    list2.append((len(i), i))
+for j in list1:
+    list2.append((len(j), j))
 list2.sort()
 print(list2[-1][1], len(list2[-1][1]))
 
