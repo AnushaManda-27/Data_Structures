@@ -16,8 +16,8 @@ common_ele = []
 
 def check_common(lf1, new):
     for i in list1:
-        for j in new_list:
-            if i == j:
+        for k in new_list:
+            if i == k:
                 common_ele.append(i)
                 
 check_common(list1, new_list)
