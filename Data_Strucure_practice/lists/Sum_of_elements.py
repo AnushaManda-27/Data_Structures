@@ -10,7 +10,7 @@ from functools import reduce
 
 import sys, re
 
-def input_validation(ip):
+def input_validation(inp):
 
     '''Function: input_validation function is defined to validate input given
     
@@ -20,7 +20,7 @@ def input_validation(ip):
     '''
 
 
-    macthobj = re.compile(r'((((-)?\d+)(,?))+)').search(ip)
+    macthobj = re.compile(r'((((-)?\d+)(,?))+)').search(inp)
     if macthobj != None:
         return
     else:
@@ -30,7 +30,6 @@ def input_validation(ip):
 if __name__ == '__main__':
     elements = input("Enter elements separated by comma: ")
     input_validation(elements)
-    #a = [1,2,3,4]
     elements = elements.split(',')
     sum = reduce(lambda x,y: int(x)+int(y), elements)
     print(sum)
