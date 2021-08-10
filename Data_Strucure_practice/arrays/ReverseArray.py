@@ -9,8 +9,8 @@
 
 import array as ar
 
-a = ar.array('i', [1, 2, 3, 4, 5])
-a.reverse()
-print(a)
-for i in range(len(a)):
-    print(a[i])
+array = ar.array('i', [1, 2, 3, 4, 5])
+array.reverse()
+print(array)
+for i in range(len(array)):
+    print(array[i])
