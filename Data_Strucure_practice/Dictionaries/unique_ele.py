@@ -9,7 +9,7 @@
 
 
 list_dict = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"},
-         {"VII": "S005"}, {"V": "S009"}, {"VIII": "S007"}]
+         {"VII": "S005"}, {"V": "S005"}, {"VIII": "S007"}]
 
 s = set() #cause set has no duplication
 for dict in list_dict:
