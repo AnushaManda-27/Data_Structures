@@ -7,9 +7,9 @@
 @Title: Coverting a string to dictionary(keys as elements and values as their count)
 '''
 
-str = input("Enter a string: ")
+str1 = input("Enter a string: ")
 dict = {}
-for i in str:
+for i in str1:
     keys = dict.keys()
     if i in keys:
         dict[i] += 1
