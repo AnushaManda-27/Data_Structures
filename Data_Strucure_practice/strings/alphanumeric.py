@@ -8,7 +8,7 @@
 @Title: sorting elements in a set in alphanumeric way
 '''
 
-str = input("Enter strings separated by comma: ").split(',')
+str1 = input("Enter strings separated by comma: ").split(',')
 
-str2 = (','.join(sorted(list(set(str)))))
+str2 = (','.join(sorted(list(set(str1)))))
 print(str2)
